@@ -1,0 +1,43 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 49px 158px 0;
+    /* align-items: center; */
+
+}
+div ul{
+    list-style: none;
+    display: flex;
+    width: 345px;
+    height: 40px;
+}
+div ul a{
+    text-decoration: none;
+    color: #707070;
+
+}
+div ul li{
+    margin-right: 24px;
+}
+.input input{
+    border-radius: 66px;
+    width: 608px;
+    height: 48px;
+    margin: 0 30px;
+    padding: 12px;
+    border: none;
+    background-color: #F1F1F1;
+}
+
+.input input::placeholder{
+    color: #BABABA;
+    font-size: 16px;
+    font-weight: 500px;
+
+}
+
+nav img{
+    width: 180px;
+    height: 40px;
+    margin-top: 13px;
+}
